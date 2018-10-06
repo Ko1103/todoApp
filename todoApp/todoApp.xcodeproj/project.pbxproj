@@ -19,6 +19,7 @@
 		E6964E30216881EA00DB9E69 /* todoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E2F216881EA00DB9E69 /* todoAppUITests.swift */; };
 		E6964E3E2168892800DB9E69 /* TodoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E3D2168892800DB9E69 /* TodoEntity.swift */; };
 		E6964E40216891EE00DB9E69 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E3F216891EE00DB9E69 /* TodoModel.swift */; };
+		E6964E42216898DF00DB9E69 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E41216898DF00DB9E69 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		E6964E31216881EA00DB9E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6964E3D2168892800DB9E69 /* TodoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEntity.swift; sourceTree = "<group>"; };
 		E6964E3F216891EE00DB9E69 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		E6964E41216898DF00DB9E69 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		F7291DC424031F70D6CD0441 /* Pods-todoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-todoApp/Pods-todoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 				E6964E1B216881EA00DB9E69 /* Info.plist */,
 				E6964E3D2168892800DB9E69 /* TodoEntity.swift */,
 				E6964E3F216891EE00DB9E69 /* TodoModel.swift */,
+				E6964E41216898DF00DB9E69 /* DateExtension.swift */,
 			);
 			path = todoApp;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6964E3E2168892800DB9E69 /* TodoEntity.swift in Sources */,
+				E6964E42216898DF00DB9E69 /* DateExtension.swift in Sources */,
 				E6964E40216891EE00DB9E69 /* TodoModel.swift in Sources */,
 				E6964E12216881E900DB9E69 /* ViewController.swift in Sources */,
 				E6964E10216881E900DB9E69 /* AppDelegate.swift in Sources */,
