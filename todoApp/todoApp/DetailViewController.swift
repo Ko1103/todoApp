@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
         self.updateUI()
     }
 
-    private func updateUI() {
+    func updateUI() {
         titleLabel.text = todo?.title ?? "nil"
         dateLabel.text = todo?.date.toStringJP() ?? "nil"
         memoTextView.text = todo?.memo ?? "nil"
