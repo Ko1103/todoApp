@@ -29,7 +29,7 @@ class IndexViewController: UIViewController {
         todoTableView.dataSource = self as? UITableViewDataSource
     }
 
-    private func updateUI() {
+    func updateUI() {
         navigationController?.isToolbarHidden = true
         TodoModel.read { (tds) in
             self.todos = tds
