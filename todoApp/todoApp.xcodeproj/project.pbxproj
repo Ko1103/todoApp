@@ -20,6 +20,10 @@
 		E6964E3E2168892800DB9E69 /* TodoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E3D2168892800DB9E69 /* TodoEntity.swift */; };
 		E6964E40216891EE00DB9E69 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E3F216891EE00DB9E69 /* TodoModel.swift */; };
 		E6964E42216898DF00DB9E69 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E41216898DF00DB9E69 /* DateExtension.swift */; };
+		E6964E4421689E9B00DB9E69 /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E4321689E9B00DB9E69 /* IndexViewController.swift */; };
+		E6964E462168A10700DB9E69 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E452168A10700DB9E69 /* TodoTableViewCell.swift */; };
+		E6964E482168A1AB00DB9E69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E472168A1AB00DB9E69 /* DetailViewController.swift */; };
+		E6964E4A2168A46300DB9E69 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6964E492168A46300DB9E69 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,10 @@
 		E6964E3D2168892800DB9E69 /* TodoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEntity.swift; sourceTree = "<group>"; };
 		E6964E3F216891EE00DB9E69 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		E6964E41216898DF00DB9E69 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		E6964E4321689E9B00DB9E69 /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		E6964E452168A10700DB9E69 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		E6964E472168A1AB00DB9E69 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E6964E492168A46300DB9E69 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		F7291DC424031F70D6CD0441 /* Pods-todoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-todoApp/Pods-todoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +160,10 @@
 				E6964E3D2168892800DB9E69 /* TodoEntity.swift */,
 				E6964E3F216891EE00DB9E69 /* TodoModel.swift */,
 				E6964E41216898DF00DB9E69 /* DateExtension.swift */,
+				E6964E4321689E9B00DB9E69 /* IndexViewController.swift */,
+				E6964E472168A1AB00DB9E69 /* DetailViewController.swift */,
+				E6964E452168A10700DB9E69 /* TodoTableViewCell.swift */,
+				E6964E492168A46300DB9E69 /* EditViewController.swift */,
 			);
 			path = todoApp;
 			sourceTree = "<group>";
@@ -386,11 +398,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6964E462168A10700DB9E69 /* TodoTableViewCell.swift in Sources */,
 				E6964E3E2168892800DB9E69 /* TodoEntity.swift in Sources */,
 				E6964E42216898DF00DB9E69 /* DateExtension.swift in Sources */,
 				E6964E40216891EE00DB9E69 /* TodoModel.swift in Sources */,
 				E6964E12216881E900DB9E69 /* ViewController.swift in Sources */,
 				E6964E10216881E900DB9E69 /* AppDelegate.swift in Sources */,
+				E6964E4421689E9B00DB9E69 /* IndexViewController.swift in Sources */,
+				E6964E482168A1AB00DB9E69 /* DetailViewController.swift in Sources */,
+				E6964E4A2168A46300DB9E69 /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
