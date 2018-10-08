@@ -29,6 +29,12 @@ class IndexViewController: UIViewController {
         todoTableView.dataSource = self as? UITableViewDataSource
     }
 
+    @IBAction func toCreateView(_ sender: Any) {
+        let createVC = self.storyboard?.instantiateViewController(withIdentifier: "create&edit") as! EditViewController
+        createVC.style = .create
+        present(createVC, animated: true, completion: nil)
+    }
+
     func updateUI() {
         navigationController?.isToolbarHidden = true
         TodoModel.read { (tds) in
